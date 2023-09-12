@@ -1,0 +1,58 @@
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    background-color: rgb(4, 2, 47);
+    color:white;
+}
+.maindiv{
+    padding-top: 5%;
+    display: flex;
+
+}
+
+h1, h2,h3, h4, h5, h6, p, li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+li , p {
+    opacity: 42%;
+}
+
+.opac{
+    opacity: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a {
+    opacity: 100%;
+}
+
+
+.divleft{
+    box-sizing: border-box;
+    width: 50%;
+    height:100%;
+    padding-top: 60px;
+    padding-left: 150px;
+    z-index: 100000;
+     position: fixed;
+   
+}
+
+.divright{
+    
+    padding-left: 51%;
+    margin-top: 50px;
+    
+    
+    
+}
+.divisions{
+    margin-top: 90px;
+    margin-right: 50px;
+}
